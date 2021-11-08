@@ -1,22 +1,29 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import SearchBooks from './pages/SearchBooks';
-import SavedBooks from './pages/SavedBooks';
-import Navbar from './components/Navbar';
+import Navbar from './components/Nav/Nav';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Profile from './components/ProfileImage/ProfileImg';
+import About from './components/AboutMe/AboutMe'
+import Portfolio from './components/Portfolio/Portfolio';
+
 
 function App() {
   return (
-    <Router>
-      <>
-        <Navbar />
-        <Switch>
-          <Route exact path='/' component={SearchBooks} />
-          <Route exact path='/saved' component={SavedBooks} />
-          <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
-        </Switch>
-      </>
-    </Router>
-  );
+    <div>
+      <Navbar />
+      <Header />
+ 
+    <div class='container'>  <div class="row">
+              <div class="col s6"><Profile/></div>
+              <div class="col s6"><About/></div>
+              </div></div>
+              <div class='container'>  <div class="row">
+              <div class="col s12"><Portfolio/></div>
+              
+              </div></div>
+     <Footer/>
+     </div>
+     );
 }
 
 export default App;
