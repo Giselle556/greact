@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/greact/static/js/main.b8b44fe1.chunk.js",
+    "main.js.map": "/greact/static/js/main.b8b44fe1.chunk.js.map",
+    "runtime-main.js": "/greact/static/js/runtime-main.81def50b.js",
+    "runtime-main.js.map": "/greact/static/js/runtime-main.81def50b.js.map",
+    "static/css/2.c706fce9.chunk.css": "/greact/static/css/2.c706fce9.chunk.css",
+    "static/js/2.3fbd74e8.chunk.js": "/greact/static/js/2.3fbd74e8.chunk.js",
+    "static/js/2.3fbd74e8.chunk.js.map": "/greact/static/js/2.3fbd74e8.chunk.js.map",
+    "index.html": "/greact/index.html",
+    "static/css/2.c706fce9.chunk.css.map": "/greact/static/css/2.c706fce9.chunk.css.map",
+    "static/js/2.3fbd74e8.chunk.js.LICENSE.txt": "/greact/static/js/2.3fbd74e8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81def50b.js",
+    "static/css/2.c706fce9.chunk.css",
+    "static/js/2.3fbd74e8.chunk.js",
+    "static/js/main.b8b44fe1.chunk.js"
+  ]
+}
